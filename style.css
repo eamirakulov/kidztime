@@ -18,13 +18,15 @@
   font-style: normal; }
 body {
   margin: 0;
-  font-family: Affogato-Medium; }
+  font-family: Affogato-Medium;
+  background: #fff; }
   body * {
     box-sizing: border-box; }
 
 .main {
   width: 600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: #fff; }
 
 .header {
   border-bottom-right-radius: 30px;
@@ -92,12 +94,12 @@ body {
     border-radius: 16px;
     /* box-shadow: 0 22px 54px 0 rgba(77, 95, 111, 0.31) */
     overflow: hidden;
-    padding: 0 30px 82px 30px;
+    padding: 0 30px 77px 30px;
     margin-top: 28px; }
     .summary .item .img {
       max-width: 132px;
       margin-right: 28px;
-      padding: 0 16px;
+      padding: 25px 16px 0 16px;
       float: left; }
       .summary .item .img img {
         max-width: 100%;
@@ -110,7 +112,8 @@ body {
         font-size: 22px;
         font-family: Affogato-Medium;
         line-height: 24px;
-        margin: 0; }
+        margin: 0;
+        padding-top: 25px; }
       .summary .item .desc .code {
         font-family: Affogato-Medium;
         font-sise: 16px;
